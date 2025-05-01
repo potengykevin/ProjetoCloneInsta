@@ -1,0 +1,106 @@
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .container-cabecalho {
+            max-width: 935px;
+            width: 100%;
+            height: 293px;
+            margin: 30px auto;
+            display: flex;
+            align-items: center;
+            padding: 10px 50px 30px 50px;
+            gap: 100px;
+        }
+
+        .container-info-perfil {
+            width: 100%;
+            height: 100%;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .foto-kvn {
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+        }
+
+        .container-flex-row {
+            height: 30px;
+            display: flex;
+            width: 100%;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .button-info-perfil {
+            padding: 5px 10px;
+            background-color: #363636;
+            color: white;
+            border-radius: 8px;
+            font-size: 14px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .nome-perfil {
+            font-size: 20px;
+            color: white;
+        }
+
+        .container-bio {
+        font-size: 14px;
+        }
+
+        .text-info-perfil {
+            color: #a8a8a8;
+        }
+
+        strong {
+            color: white;
+        }
+
+        .link-lakers {
+            color: rgb(65 80 247);
+        }
+
+        .text-bio {
+            color: white;
+        }
+
+        .text-seguidores {
+            color: #a8a8a8;
+            font-size: 12px;
+        }
+
+        .container-imagens {
+            max-width: 935px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .imagem-perfil {
+            width: 307px;
+            height: 410px;
+            object-fit: cover;
+        }
+
+        .tres-pontos {
+            color: white;
+            font-size: 18px;
+        }
+
+    
