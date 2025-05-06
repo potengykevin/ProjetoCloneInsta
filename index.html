@@ -8,7 +8,12 @@
 </head>
 <body>
     <header class="container-cabecalho">
-        <img class="foto-kvn" src="./imagens/fotoperfilkvn.jpg" alt="fotoperfilkvn">
+        <img id="foto-kvn" src="./imagens/fotoperfilkvn.jpg" alt="fotoperfilkvn">
+        <script>
+            document.getElementById("foto-kvn").addEventListener("click", function() {
+                alert("kevinpotengy");
+            });
+        </script>
         <div class="container-info-perfil">
             <div class="container-flex-row"> 
                <h1 class="nome-perfil">kevinpotengy</h1>

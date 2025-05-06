@@ -30,7 +30,7 @@
             justify-content: space-between;
         }
 
-        .foto-kvn {
+        #foto-kvn {
             width: 150px;
             height: 150px;
             border-radius: 100%;
